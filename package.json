@@ -1,0 +1,23 @@
+{
+  "name": "df-repro",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Christopher Yovanovitch <yovano_c@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "rate-limiter-flexible": "^3.0.1"
+  }
+}
